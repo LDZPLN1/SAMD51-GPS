@@ -7,3 +7,8 @@ UTC and local clock is set via GPS data. Software then calculates the current Ma
 DST is automatically calculated for local timezone.
 
 Designed to get time/date/lat/lon/grid without any internet access as a stand alone device.
+
+SPARKFUN THING PLUS SAMD51
+BN-880 GPS WITH MAGNETOMETER - USES U-BLOX 8 SERIES CHIPSET
+WAVESHARE 2.4" TFT DISPLAY (320X240)
+3,600 MAH LIPO BATTERY
