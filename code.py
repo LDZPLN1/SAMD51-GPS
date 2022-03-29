@@ -402,6 +402,8 @@ serial = busio.UART(pin_tx, pin_rx, baudrate=9600, timeout=1, receiver_buffer_si
 
 payload = bytes([0x01, 0x00, 0x00, 0x00, 0xD0, 0x08, 0x00, 0x00, 0x00, 0x96, 0x00, 0x00, 0x07, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00])
 ubx_send(cfg_prt, '', payload)
+time.sleep(0.1)
+ubx_send(cfg_prt, '', payload)
 
 serial.deinit()
 serial = busio.UART(pin_tx, pin_rx, baudrate=38400, timeout=1, receiver_buffer_size=256)
